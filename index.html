@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <h1>Form Validation In Javascript</h1>
+        <h4>Sign Up</h4>
+        <div class="container">
+            <br>
+            <form action="https://meet.google.com/udi-yhfz-rze" onsubmit="return validation()">
+                <div class="form-group">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" class="form-control" id="name" autocomplete="off"> 
+                    <span id="Name" class="spn"></span>
+                </div>
+                <div class="form-group">
+                    <label>Email</label><br>
+                    <input type="text" name="email" class="form-control" id="emails" autocomplete="off"> 
+                    <span id="emailids" class="spn"></span>
+                </div>
+                <div class="form-group">
+                    <label for="user">Username</label><br>
+                    <input type="text" name="user" class="form-control" id="user" autocomplete="off"> 
+                    <span id="username" class="spn"></span>
+                </div>
+                <div class="form-group">
+                    <label>Password</label><br>
+                    <input type="password" name="pass" class="form-control" id="pass" autocomplete="off"> 
+                    <span id="passwords" class="spn"></span>
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label><br>
+                    <input type="password" name="conpass" class="form-control" id="conpass" autocomplete="off"> 
+                    <span id="confrmpass" class="spn"></span>
+                </div>
+                <div class="form-group">
+                    <label>Mobile Number</label><br>
+                    <input type="text" name="mobile" class="form-control" id="mobileNumber" autocomplete="off"> 
+                    <span id="mobileno" class="spn"></span>
+                </div>
+                <input type="submit" name="submit" value="Submit" class="btn btn-primary" autocomplete="off"> 
+                <input type="reset" name="reset" value="Reset" class="btn btn-secondary" autocomplete="off">&emsp;&emsp;&emsp;&emsp;Already have an account?
+                <a href="login.html">Login</a>
+            </form>
+            <br><br>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
